@@ -1,11 +1,13 @@
 .link {
     letter-spacing: 2px;
     text-align: end;
-}
-a {
     color: red;
 }
 
-.desorder {
-        text-align: end;
+.end {
+    text-align: center;
+}
+
+.nextpage {
+    color: black;
 }
