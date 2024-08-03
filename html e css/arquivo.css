@@ -1,13 +1,92 @@
+body {
+    background: #000000;
+    color: white;
+}
+
 .link {
     letter-spacing: 2px;
-    text-align: end;
-    color: red;
+    color: darkred;
+    font-family: "Audiowide", sans-serif;
+    font-size: 15px;
+    text-decoration: none;
 }
 
 .end {
-    text-align: center;
+    padding-left: 1040px;
+    block-size: 25px;
+}
+
+.titulo {
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+
+.subtitulo {
+    padding-left: 20px;
+    margin: 0;
 }
 
 .nextpage {
-    color: black;
+    background-color: black;
+    font-family: "Audiowide", sans-serif;
+    color: white; /* Texto branco */
+    border: 2px solid #444; /* Borda escura */
+    border-radius: 8px; /* Cantos arredondados */
+    padding: 10px 30px; /* Espaçamento interno */
+    font-size: 18px; /* Tamanho da fonte */
+    letter-spacing: 1px; /* Espaçamento entre letras */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); /* Sombra para profundidade */
+    text-decoration: none;
+    position: absolute; /* Posiciona o botão de forma absoluta em relação ao pai posicionado */
+    top: 410px; /* Distância do topo */
+    left: 10px; /* Distância da direita */
+}
+
+.lyric {
+    padding-left: 100px;
+    block-size: 750px;
+    writing-mode: horizontal-tb;
+    font-family: "Audiowide", sans-serif;
+    font-size: 17px;
+}
+
+.backpage {
+}
+
+.imagem {
+    margin-right: 0;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+}
+
+.video-container {
+    width: 40%; /* Ajuste a largura conforme necessário */
+    max-width: 700px; /* Ajuste a largura máxima conforme necessário */
+    padding-bottom: 22.5%; /* Proporção 16:9 (315 / 560 * 100) */
+    height: 0;
+    overflow: hidden;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: absolute; /* Posiciona o botão de forma absoluta em relação ao pai posicionado */
+    top: 490px; /* Distância do topo */
+    right: 40px; /* Distância da direita */
+}
+
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
 }
