@@ -37,8 +37,8 @@ body {
     letter-spacing: 1px; /* Espaçamento entre letras */
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5); /* Sombra para profundidade */
     text-decoration: none;
-    position: absolute; /* Posiciona o botão de forma absoluta em relação ao pai posicionado */
-    top: 410px; /* Distância do topo */
+    position: sticky; /* Posiciona o botão de forma absoluta em relação ao pai posicionado */
+    top: 10px; /* Distância do topo */
     left: 10px; /* Distância da direita */
 }
 
